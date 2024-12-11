@@ -23,7 +23,11 @@ Use the following commands:
 git clone https://github.com/ayush-singh24/proactively-backend.git
 
 cd proactively-backend
+```
 
+- Copy KEY VALUE FOR `SENDGRID_API_KEY` environment value from **secret.txt** and paste it in .env file.
+
+```
 npm install (or) yarn
 
 npm run start (or) yarn start
