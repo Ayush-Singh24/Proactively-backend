@@ -1,3 +1,5 @@
-COPY THIS AND PASTE IN ENV FILE (without quotes)
+COPY THIS AND PASTE IN ENV FILE (without '/')
 
-"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"
+S/G.ltr7a3SHTBipYCUh-Q9P1A.nzJvO-zM_1TzJICFE4_vbXWjntmcSMf-oPit8Pyb2m/M
+ ^                                                                   ^
+ remove these "/"
