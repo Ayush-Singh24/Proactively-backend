@@ -36,6 +36,8 @@ router.post(
   checkSchema(loginValidator),
   async (req: Request, res: Response) => {
     try {
+      const result = validationResult(req);
+      if (!result.isEmpty()) throw new ValidationError(result.array());
       const [userId, userType] = await login(req.body);
       const token = jwt.sign({ userId, userType }, process.env.SECRET!);
       res

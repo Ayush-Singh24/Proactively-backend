@@ -13,6 +13,8 @@ Check out in detailed documentation here: https://documenter.getpostman.com/view
 
 I have utilized Drizzle to design and interact with SQL Database(LIBSQL).
 
+LibSQL is used in this project primarily for facilitating ease of testing. This choice enables more efficient and effective testing of database interactions.
+
 # How to Run?
 
 Use the following commands:
@@ -22,7 +24,7 @@ git clone https://github.com/ayush-singh24/proactively-backend.git
 
 cd proactively-backend
 
-npx drizzle-kit push
+npm install (or) yarn
 
 npm run start (or) yarn start
 ```
